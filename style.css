@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300&family=Montserrat:wght@100&family=Rubik+Distressed&family=Sono&display=swap');
+
+body {font-family: 'Marhey', cursive;}
+hr{ margin: 3rem 0rem;}
+
+.heading{
+    background-color: #E69D30;
+    padding: 1rem;
+    font-size: 3rem;
+    text-align: center;
+    color: green;
+}
+
+.button{
+    background-color: #E69D30;
+    color: green;
+    padding: 0.5rem;
+    }
+.area{
+    border-radius: 0.5rem;
+    padding:1rem
+}
+.footer{
+    background-color: #E69D30;
+    text-align: center;
+    color: green;
+}

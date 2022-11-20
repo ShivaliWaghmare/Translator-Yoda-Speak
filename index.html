@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoda Speak</title>
+    <link href="style.css" rel="stylesheet"/>
+    <style>
+        textarea{
+            width: 90%;
+            height: 15vh;
+            display: block;
+            padding: 1rem;
+            margin: 1rem;
+        }
+        #output{
+            border: 1px solid black;
+            height: 15vh;
+            width: 90%;
+            margin: 1rem;
+            padding: 1rem;
+            border-radius: 0.5rem;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1 class="heading">Yoda Speak</h1>
+    <textarea class="area" id="txt-input"
+    placeholder="Type English word or sentence "></textarea>
+    <button class="button" id="btn-translate">Translate To Yodish</button>
+    <div  style="font-size:larger">Translated text will come here 👇</div>
+    <div id="output"></div>
+    <footer class="footer">
+        <h1>about</h1>
+        <p>Hey are you a yoda fan? So here you can translate english language into Yodish Language</p>
+    </footer>
+    <script src="app.js" type="text/javascript"></script>
+</body>
+</html>
